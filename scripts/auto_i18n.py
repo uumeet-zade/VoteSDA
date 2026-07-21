@@ -50,7 +50,7 @@ def process_file(filename):
                 source_dict[new_key] = content
 
     # Check headers and paragraphs inside page-header and other un-classed blocks
-    for el in soup.select('.page-header h1, .page-header p, nav a, .event-rsvp'):
+    for el in soup.select('.page-header h1, .page-header p, nav a:not(.nav-brand), .event-rsvp'):
         if not el.has_attr('data-i18n') and el.get_text(strip=True):
             new_key = f"auto-{file_prefix}-{counter}"
             counter += 1

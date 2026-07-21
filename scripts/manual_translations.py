@@ -54,17 +54,17 @@ print(f"Passthrough keys (no translation needed): {len(PASSTHROUGH_KEYS)}")
 # FRENCH (Gallic / ga)
 fr = {
     # --- Shared nav/footer ---
-    "nav-name": "Alliance Sociale-Démocrate",
+    "nav-name": "Alliance Sociale-Democrate",
     "nav-home": "Accueil",
     "nav-platform": "Plateforme",
     "nav-campaigning": "Campagne",
     "nav-candidates": "Candidats",
-    "footer-name": "Alliance Sociale-Démocrate",
+    "footer-name": "Alliance Sociale-Democrate",
     "footer-motto": "Pour la République. Pour le Peuple.",
-    "footer-copy": "Élections à venir · Caprica<br/> Alliance Sociale-Démocrate",
+    "footer-copy": "Elections à venir · Caprica<br/> Alliance Sociale-Democrate",
 
     # --- Index page ---
-    "idx-eyebrow": "Alliance Sociale-Démocrate",
+    "idx-eyebrow": "Alliance Sociale-Democrate",
     "idx-hero-title": 'Pour le Peuple.<br/><span style="color: var(--primary);">Pour la République.</span>',
     "idx-hero-sub": "Une campagne pour les masses laborieuses. Je me bats pour une République ou chaque petite entreprise peut prosperer et chaque ville rurale est connectee - bâtie sur les fondations inébranlables de notre republique.",
     "marquee-text": "Pour le Peuple • Pour la République",
@@ -229,15 +229,15 @@ fr = {
 
 # SPANISH (Alcamerian / ac)
 es = {
-    "nav-name": "Alianza Socialdemócrata",
+    "nav-name": "Alianza Socialdemocrata",
     "nav-home": "Inicio",
     "nav-platform": "Plataforma",
     "nav-campaigning": "Campana",
     "nav-candidates": "Candidatos",
-    "footer-name": "Alianza Socialdemócrata",
+    "footer-name": "Alianza Socialdemocrata",
     "footer-motto": "Por la República. Por el Pueblo.",
-    "footer-copy": "Próximas Elecciones · Caprica<br/> Alianza Socialdemócrata",
-    "idx-eyebrow": "Alianza Socialdemócrata",
+    "footer-copy": "Proximás Elecciones · Caprica<br/> Alianza Socialdemocrata",
+    "idx-eyebrow": "Alianza Socialdemocrata",
     "idx-hero-title": 'Por el Pueblo.<br/><span style="color: var(--primary);">Por la República.</span>',
     "idx-hero-sub": "Una campaña para las masas trabajadoras. Lucho por una República donde cada pequeña empresa pueda prosperar y cada pueblo rural esté conectado - construida sobre los cimientos inquebrantables de nuestra república.",
     "marquee-text": "Por el Pueblo • Por la República",
