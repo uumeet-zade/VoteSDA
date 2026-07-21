@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function setLanguage(langCode) {
     if (!dictionary[langCode]) return;
+    localStorage.setItem("site-lang", langCode);
+
+    // Always get a fresh list of elements
+    const translatableElements = document.querySelectorAll("[data-i18n]");
 
     // Update the UI text
     translatableElements.forEach(el => {
@@ -51,6 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
+
+    // Force DOM repaint (fixes Safari/WebKit text rendering bugs)
+    document.body.style.display = 'none';
+    document.body.offsetHeight; // trigger reflow
+    document.body.style.display = '';
 
     // Update active state in dropdown
     langOptions.forEach(opt => opt.classList.remove("active"));

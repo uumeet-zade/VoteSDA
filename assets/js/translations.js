@@ -31,6 +31,19 @@ const dictionary = {
     "marquee-text": "For the People • For the Republic",
     "idx-vision-title": "Our Vision for the Republic",
     "idx-vision-desc": "Our campaign is built on tangible commitments to the people of the Republic. From restoring fair taxation and reforming our intelligence services, to expanding the judiciary, funding R&D centers in every state, and connecting every community through CapriConnect high-speed rail, we are fighting for a Republic that works for everyone.",
+    "idx-leadership-title": "Party Leadership",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Chairwoman",
+    "ld-bio-florence": "Born on 5 April 2017 in Kazana, Florence Marin is a Former Senator and a prominent member of the well-known \"Marin Family\". Serving as the Leader of the Social Democratic Alliance since 2053, her strategic vision anchors our movement. She is the leading voice for our Foreign Policy and Economic revitalization, firmly opposing Caprexit, championing comprehensive CU Reform, and advocating for a progressive wealth tax that funds massive tax cuts for scaling small businesses.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Deputy Chairman",
+    "ld-bio-william": "Born on 15 April 2028 in Cambria, William Smith is a dedicated Member of Parliament. Known for his steadfast advocacy on the national stage, he is the driving force behind our environmental and judicial agendas. He works tirelessly to push for MRP's nomination to the Supreme Court, empower the EPA, and promote regenerative agricultural practices to secure a sustainable future for the Republic.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Born on 17 May 2024 in Mezata, Sherwin Hildebrand was elected Governor of Mezata in 2052. He played a crucial role in stabilizing the early phases of the Siege of the ManMan Building by directing local Mezata forces. Drawing from this frontline security experience, he spearheads our National Security agenda, advocating for the repeal of the Nuremberg Act and the strategic merging of domestic security back into COIN.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Chief of Staff",
+    "ld-bio-aldric": "Born on 15 February 2035 in Ventura, Aldric von Reichel is a Member of Parliament and the architect of the Constitutional Review Commission. A former member of Res Publica (now Progressive Caprica), he joined the SDA in 2057. He leads the party's ambitious infrastructure and education agenda, fiercely championing the Caprican Archipelago Plan to expand rural express rail, the CapriConnect network, and the National Network of Regional R&D Centers Act (NRRDA).",
+    "auto-candidates-81": "Role",
     "footer-name": "Social Democratic Alliance",
     "footer-motto": "For the Republic. For the People.",
     "footer-copy": "Upcoming Elections · Caprica<br/> Social Democratic Alliance",
@@ -288,7 +301,6 @@ const dictionary = {
     "cand-meet-title": "Meet them on the ground",
     "cand-meet-desc": "Join our candidates at town halls, rallies, and community meetings near you.",
     "cand-meet-btn": "View Upcoming Events",
-    "auto-candidates-81": "Role",
     "auto-candidates-82": "View Events"
   },
   "ga": {
@@ -313,6 +325,19 @@ const dictionary = {
     "marquee-text": "Pour le Peuple • Pour la République",
     "idx-vision-title": "Notre Vision pour la République",
     "idx-vision-desc": "Notre campagne repose sur des engagements concrets envers les habitants de la République. Du rétablissement d'une fiscalité juste et de la reforme de nos services de renseignement, a l'élargissement du pouvoir judiciaire, au financement de centres de R&D dans chaque Etat et a la connexion de chaque communauté grace au reseau ferroviaire à grande vitesse CapriConnect, nous nous battons pour une République qui fonctionne pour tous.",
+    "idx-leadership-title": "Direction du Parti",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Présidente",
+    "ld-bio-florence": "Née le 5 avril 2017 à Kazana, Florence Marin est une Ancienne Sénatrice et un membre éminent de la célèbre \"Famille Marin\". En tant que Leader de l'Alliance Social-Démocrate depuis 2053, sa vision stratégique ancre notre mouvement. Elle est la voix principale de notre politique étrangère et de notre relance économique, s'opposant fermement au Caprexit, défendant une réforme globale de la CU, et plaidant pour un impôt progressif sur la fortune qui finance des réductions d'impôts massives pour le développement des petites entreprises.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Vice-président",
+    "ld-bio-william": "Né le 15 avril 2028 à Cambria, William Smith est un Membre du Parlement dévoué. Connu pour son plaidoyer inébranlable sur la scène nationale, il est la force motrice de nos programmes environnementaux et judiciaires. Il travaille sans relâche pour pousser la nomination de MRP à la Cour Suprême, renforcer l'EPA, et promouvoir des pratiques agricoles régénératrices afin d'assurer un avenir durable à la République.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Né le 17 mai 2024 à Mezata, Sherwin Hildebrand a été élu Gouverneur de Mezata en 2052. Il a joué un rôle crucial dans la stabilisation des premières phases du Siège du Bâtiment ManMan en dirigeant les forces locales de Mezata. S'appuyant sur cette expérience de sécurité en première ligne, il dirige notre programme de Sécurité Nationale, plaidant pour l'abrogation de la loi de Nuremberg et la réintégration stratégique de la sécurité intérieure au sein de COIN.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Chef de cabinet",
+    "ld-bio-aldric": "Né le 15 février 2035 à Ventura, Aldric von Reichel est un Membre du Parlement et l'architecte de la Commission de Révision Constitutionnelle. Ancien membre de Res Publica, il a rejoint la SDA en 2057. Il dirige l'ambitieux programme d'infrastructures et d'éducation du parti, défendant farouchement le Plan de l'Archipel Caprican pour étendre les trains express ruraux, le réseau CapriConnect, et la loi NRRDA sur le réseau national de centres régionaux de R&D.",
+    "auto-candidates-81": "Role",
     "footer-name": "Alliance Sociale-Democrate",
     "footer-motto": "Pour la République. Pour le Peuple.",
     "footer-copy": "Elections à venir · Caprica<br/> Alliance Sociale-Democrate",
@@ -570,7 +595,6 @@ const dictionary = {
     "cand-meet-title": "Rencontrez-les sur le terrain",
     "cand-meet-desc": "Rejoignez nos candidats lors d'assemblees, de rassemblements et de reunions communautaires pres de chez vous.",
     "cand-meet-btn": "Voir les Evenements a Venir",
-    "auto-candidates-81": "Role",
     "auto-candidates-82": "Voir les Evenements"
   },
   "ac": {
@@ -595,6 +619,19 @@ const dictionary = {
     "marquee-text": "Por el Pueblo • Por la República",
     "idx-vision-title": "Our Vision for the Republic",
     "idx-vision-desc": "Our campaign is built on tangible commitments to the people of the Republic. From restoring fair taxation and reforming our intelligence services, to expanding the judiciary, funding R&D centers in every state, and connecting every community through CapriConnect high-speed rail, we are fighting for a Republic that works for everyone.",
+    "idx-leadership-title": "Liderazgo del Partido",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Presidenta",
+    "ld-bio-florence": "Nacida el 5 de abril de 2017 en Kazana, Florence Marin es una Ex Senadora y una figura destacada de la conocida \"Familia Marin\". Sirviendo como Líder de la Alianza Socialdemócrata desde 2053, su visión estratégica ancla nuestro movimiento. Es la voz principal de nuestra Política Exterior y revitalización Económica, oponiéndose firmemente al Caprexit, defendiendo una reforma integral de la CU y abogando por un impuesto a la riqueza progresivo que financie recortes de impuestos masivos para el crecimiento de las pequeñas empresas.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Vicepresidente",
+    "ld-bio-william": "Nacido el 15 de abril de 2028 en Cambria, William Smith es un dedicado Miembro del Parlamento. Conocido por su firme defensa en el escenario nacional, es la fuerza impulsora detrás de nuestras agendas ambientales y judiciales. Trabaja incansablemente para impulsar la nominación de MRP a la Corte Suprema, empoderar a la EPA y promover prácticas agrícolas regenerativas para asegurar un futuro sostenible para la República.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Nacido el 17 de mayo de 2024 en Mezata, Sherwin Hildebrand fue elegido Gobernador de Mezata en 2052. Jugó un papel crucial en la estabilización de las primeras fases del Asedio del Edificio ManMan dirigiendo las fuerzas locales de Mezata. A partir de esta experiencia de seguridad en primera línea, encabeza nuestra agenda de Seguridad Nacional, abogando por la derogación de la ley de Nuremberg y la fusión estratégica de la seguridad nacional nuevamente en COIN.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Jefe de gabinete",
+    "ld-bio-aldric": "Nacido el 15 de febrero de 2035 en Ventura, Aldric von Reichel es un Miembro del Parlamento y el arquitecto de la Comisión de Revisión Constitucional. Ex miembro de Res Publica, se unió a la SDA en 2057. Lidera la ambiciosa agenda de infraestructura y educación del partido, defendiendo ferozmente el Plan del Archipiélago de Caprican para expandir el tren expreso rural, la red CapriConnect y la ley NRRDA sobre la red nacional de centros regionales de I+D.",
+    "auto-candidates-81": "Cargo",
     "footer-name": "Alianza Socialdemocrata",
     "footer-motto": "Por la República. Por el Pueblo.",
     "footer-copy": "Proximás Elecciones · Caprica<br/> Alianza Socialdemocrata",
@@ -852,7 +889,6 @@ const dictionary = {
     "cand-meet-title": "Conocelos en persona",
     "cand-meet-desc": "Unase a nuestros candidatos en asambleas, mitines y reuniones comunitarias cerca de usted.",
     "cand-meet-btn": "Ver Proximos Eventos",
-    "auto-candidates-81": "Cargo",
     "auto-candidates-82": "Ver Eventos"
   },
   "ra": {
@@ -877,6 +913,19 @@ const dictionary = {
     "marquee-text": "For Folket • For Republikken",
     "idx-vision-title": "Vores Vision for Republikken",
     "idx-vision-desc": "Vores kampagne er bygget på handgribelige forpligtelser over for befolkningen i Republikken. Fra genopretning af retfærdig beskatning og reform af vores efterretningstjenester til udvidelse af retsvaesenet, finansiering af F&U-centre i hver stat og forbindelse af hvert lokalsamfund gennem CapriConnect højhastighedstog, kæmper vi for en Republik der fungerer for alle.",
+    "idx-leadership-title": "Partiledelse",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Formand",
+    "ld-bio-florence": "Født den 5. april 2017 i Kazana, er Florence Marin en Tidligere Senator og et fremtrædende medlem af den velkendte \"Marin-familie\". Som Leder af den Socialdemokratiske Alliance siden 2053, forankrer hendes strategiske vision vores bevægelse. Hun er den ledende stemme for vores Udenrigspolitik og Økonomiske revitalisering, idet hun stærkt modsætter sig Caprexit, kæmper for en omfattende CU-reform og taler for en progressiv formueskat, der finansierer massive skattelettelser til voksende små virksomheder.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Viceformand",
+    "ld-bio-william": "Født den 15. april 2028 i Cambria, er William Smith et dedikeret Medlem af Parlamentet. Kendt for sin standhaftige fortalervirksomhed på den nationale scene, er han drivkraften bag vores miljø- og retsdagsordener. Han arbejder utrætteligt for at fremme MRP's nominering til Højesteret, styrke EPA og fremme regenerative landbrugspraksisser for at sikre en bæredygtig fremtid for Republikken.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Født den 17. maj 2024 i Mezata, blev Sherwin Hildebrand valgt som Guvernør af Mezata i 2052. Han spillede en afgørende rolle i stabiliseringen af de tidlige faser af Belejringen af ManMan-bygningen. Med afsæt i denne sikkerhedserfaring fra frontlinjen står han i spidsen for vores Nationale Sikkerhedsdagsorden, hvor han arbejder for en ophævelse af Nürnberg-loven og den strategiske sammenlægning af indenrigssikkerhed tilbage i COIN.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Kabinetschef",
+    "ld-bio-aldric": "Født den 15. februar 2035 i Ventura, er Aldric von Reichel et Medlem af Parlamentet og arkitekten bag Den Forfatningsmæssige Revisionskommission. Som tidligere medlem af Res Publica, tilsluttede han sig SDA i 2057. Han leder partiets ambitiøse infrastruktur- og uddannelsesdagsorden, hvor han indædt kæmper for Caprican Archipelago Planen om at udvide landlige eksprestog, CapriConnect-netværket og NRRDA-loven om nationale netværk af regionale R&D-centre.",
+    "auto-candidates-81": "Rolle",
     "footer-name": "Socialdemokratisk Alliance",
     "footer-motto": "For Republikken. For Folket.",
     "footer-copy": "Kommende Valg · Caprica<br/> Socialdemokratisk Alliance",
@@ -1134,7 +1183,6 @@ const dictionary = {
     "cand-meet-title": "Moed dem på gaden",
     "cand-meet-desc": "Deltag med vores kandidater til borgermoder, kampagner og fællesskabsarrangementer i naerheden af dig.",
     "cand-meet-btn": "Se Kommende Arrangementer",
-    "auto-candidates-81": "Rolle",
     "auto-candidates-82": "Se Arrangementer"
   },
   "my": {
@@ -1159,6 +1207,19 @@ const dictionary = {
     "marquee-text": "Dros y Bobl • Dros y Weriniaeth",
     "idx-vision-title": "Ein Gweledigaeth dros y Weriniaeth",
     "idx-vision-desc": "Mae ein hymgyrch wedi'i hadeiladu ar ymrwymiadau pendant i bobl y Weriniaeth. O adfer trethiant teg a diwygio ein gwasanaethau cudd-wybodaeth, i ehangu'r farnwriaeth, cyllido canolfannau Y&D ym mhob talaith, a chysylltu pob cymuned trwy rheilffordd cyflymder uchel CapriConnect, rydym yn ymladd dros Weriniaeth sy'n gweithio i bawb.",
+    "idx-leadership-title": "Arweinyddiaeth y Blaid",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Cadeirydd",
+    "ld-bio-florence": "Ganwyd ar 5 Ebrill 2017 yn Kazana, mae Florence Marin yn Gyn-Seneddwr ac yn aelod amlwg o'r teulu adnabyddus \"Teulu Marin\". Gan wasanaethu fel Arweinydd y Gynghrair Sosialaidd Ddemocrataidd ers 2053, mae ei gweledigaeth strategol yn angori ein mudiad. Hi yw'r prif lais ar gyfer ein Polisi Tramor ac adfywiad Economaidd, gan wrthwynebu Caprexit yn gadarn, hyrwyddo diwygiad CU cynhwysfawr, ac eiriol dros dreth cyfoeth flaengar sy'n ariannu toriadau treth enfawr ar gyfer busnesau bach sy'n graddio.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Is-gadeirydd",
+    "ld-bio-william": "Ganwyd ar 15 Ebrill 2028 yng Nghambria, mae William Smith yn Aelod Seneddol ymroddedig. Yn adnabyddus am ei eiriolaeth ddiysgog ar y llwyfan cenedlaethol, ef yw'r grym y tu ôl i'n hagendâu amgylcheddol a barnwrol. Mae'n gweithio'n ddiflino i wthio am enwebiad MRP i'r Goruchaf Lys, grymuso'r EPA, a hyrwyddo arferion amaethyddol adfywiol i sicrhau dyfodol cynaliadwy i'r Weriniaeth.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Ganwyd ar 17 Mai 2024 ym Mezata, etholwyd Sherwin Hildebrand yn Llywodraethwr Mezata yn 2052. Chwaraeodd ran hanfodol wrth sefydlogi cyfnodau cynnar Gwarchae Adeilad ManMan. Gan dynnu ar y profiad diogelwch rheng flaen hwn, mae'n arwain ein hagenda Diogelwch Cenedlaethol, gan eiriol dros ddiddymu deddf Nuremberg ac uno strategol diogelwch cartref yn ôl i COIN.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Prif Swyddog Staff",
+    "ld-bio-aldric": "Ganwyd ar 15 Chwefror 2035 yn Ventura, mae Aldric von Reichel yn Aelod Seneddol ac yn bensaer y Comisiwn Adolygu Cyfansoddiadol. Yn gyn-aelod o Res Publica, ymunodd â'r SDA yn 2057. Mae'n arwain agenda isadeiledd ac addysg uchelgeisiol y blaid, gan eiriol yn ffyrnig dros Gynllun Ynysoedd Caprican i ehangu rheilffyrdd cyflym gwledig, rhwydwaith CapriConnect, a deddf NRRDA ar rwydwaith cenedlaethol o ganolfannau Ymchwil a Datblygu rhanbarthol.",
+    "auto-candidates-81": "Swydd",
     "footer-name": "Cynghrair Sosialaidd Democrataidd",
     "footer-motto": "Dros y Weriniaeth. Dros y Bobl.",
     "footer-copy": "Etholiadau Nesaf · Caprica<br/> Cynghrair Sosialaidd Democrataidd",
@@ -1416,7 +1477,6 @@ const dictionary = {
     "cand-meet-title": "Cwrdd a nhw ar lawr gwlad",
     "cand-meet-desc": "Ymunwch a'n hymgeiswyr mewn neuaddau tref, raliau a chyfarfodydd cymunedol yn eich ardal.",
     "cand-meet-btn": "Gweld Digwyddiadau Nesaf",
-    "auto-candidates-81": "Swydd",
     "auto-candidates-82": "Gweld Digwyddiadau"
   },
   "au": {
@@ -1441,6 +1501,19 @@ const dictionary = {
     "marquee-text": "Par Tautu • Par Republiku",
     "idx-vision-title": "Musu Vizija Republikai",
     "idx-vision-desc": "Musu kampana ir balstita uz taustamam saistibam pret Republikas iedzivotajiem. Sakot no taisnigas nodoklu sistemas atjaunosanas un musu izlukosanas dienestu reformas, beidzot ar tiesu sistemas paplasinasanu, P&A centru finansesanu katra valsti un katras kopienas savienosanu caur CapriConnect atrgaitas dzelzcelu, mes cinamies par Republiku kas darbojas visu laba.",
+    "idx-leadership-title": "Partijas Vadība",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Priekšsēdētāja",
+    "ld-bio-florence": "Dzimusi 2017. gada 5. aprīlī Kazanā, Florence Marin ir Bijušā Senatore un labi pazīstamās \"Marinu ģimenes\" ievērojama pārstāve. Kopš 2053. gada kalpojot kā Sociāldemokrātiskās Alianses Līdere, viņas stratēģiskais redzējums nostiprina mūsu kustību. Viņa ir mūsu Ārpolitikas un Ekonomikas atdzimšanas galvenā balss, stingri iebilstot pret Caprexit, atbalstot visaptverošu CU reformu un iestājoties par progresīvu īpašuma nodokli, kas finansē ievērojamus nodokļu samazinājumus mazajiem uzņēmumiem.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Priekšsēdētāja vietnieks",
+    "ld-bio-william": "Dzimis 2028. gada 15. aprīlī Kambrijā, William Smith ir centīgs Parlamenta Deputāts. Pazīstams ar savu nelokāmo atbalstu nacionālajā arēnā, viņš ir mūsu vides un tiesu dienaskārtības virzītājspēks. Viņš nenogurstoši strādā, lai veicinātu MRP nomināciju Augstākajai Tiesai, stiprinātu EPA un veicinātu reģeneratīvās lauksaimniecības prakses, lai nodrošinātu ilgtspējīgu Republikas nākotni.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Dzimis 2024. gada 17. maijā Mezatā, Sherwin Hildebrand tika ievēlēts par Mezatas Gubernatoru 2052. gadā. Viņam bija izšķiroša loma ManMan Ēkas Ielenkuma agrīno fāžu stabilizēšanā. Balstoties uz šo frontes drošības pieredzi, viņš vada mūsu Nacionālās Drošības dienaskārtību, iestājoties par Nirnbergas likuma atcelšanu un stratēģisku iekšējās drošības atgriešanu COIN pakļautībā.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Personāla vadītājs",
+    "ld-bio-aldric": "Dzimis 2035. gada 15. februārī Venturā, Aldric von Reichel ir Parlamenta Deputāts un Konstitucionālās Pārskatīšanas Komisijas arhitekts. Bijušais Res Publica loceklis, viņš pievienojās SDA 2057. gadā. Viņš vada partijas vērienīgo infrastruktūras un izglītības dienaskārtību, nikni atbalstot Caprican arhipelāga plānu paplašināt lauku ekspresvilcienus, CapriConnect tīklu un NRRDA likumu par nacionālo reģionālo R&D centru tīklu.",
+    "auto-candidates-81": "Loma",
     "footer-name": "Socialdemokratiska Alianse",
     "footer-motto": "Par Republiku. Par Tautu.",
     "footer-copy": "Gaidamas Velesanas · Caprica<br/> Socialdemokratiska Alianse",
@@ -1698,7 +1771,6 @@ const dictionary = {
     "cand-meet-title": "Satiecieties ar viņiem klātienē",
     "cand-meet-desc": "Pievienojieties musu kandidatiem pilsetu sapulces, mitingos un kopienu tiksanas jūsu tuvumā.",
     "cand-meet-btn": "Skatit gaidamos pasakumus",
-    "auto-candidates-81": "Loma",
     "auto-candidates-82": "Skatit pasakumus"
   },
   "le": {
@@ -1723,6 +1795,19 @@ const dictionary = {
     "marquee-text": "Für das Volk • Für die Republik",
     "idx-vision-title": "Unsere Vision für die Republik",
     "idx-vision-desc": "Unsere Kampagne basiert auf greifbaren Verpflichtungen gegenüber den Menschen der Republik. Von der Wiederherstellung einer gerechten Besteuerung und der Reform unserer Geheimdienste bis hin zur Erweiterung der Justiz, der Finanzierung von F&E-Zentren in jedem Bundesstaat und der Verbindung jeder Gemeinschaft durch die CapriConnect-Hochgeschwindigkeitsbahn kaempfen wir für eine Republik, die für alle funktioniert.",
+    "idx-leadership-title": "Parteiführung",
+    "ld-name-florence": "Florence Marin",
+    "ld-role-chair": "Vorsitzende",
+    "ld-bio-florence": "Geboren am 5. April 2017 in Kazana, ist Florence Marin eine Ehemalige Senatorin und ein prominentes Mitglied der bekannten \"Familie Marin\". Sie dient seit 2053 als Vorsitzende der Sozialdemokratischen Allianz und ihre strategische Vision verankert unsere Bewegung. Sie ist die führende Stimme unserer Außenpolitik und wirtschaftlichen Wiederbelebung, lehnt den Caprexit entschieden ab, setzt sich für eine umfassende CU-Reform ein und plädiert für eine progressive Vermögenssteuer, die massive Steuersenkungen für skalierende Kleinunternehmen finanziert.",
+    "ld-name-william": "William Smith",
+    "ld-role-deputy": "Stellvertretender Vorsitzender",
+    "ld-bio-william": "Geboren am 15. April 2028 in Cambria, ist William Smith ein engagiertes Parlamentsmitglied. Bekannt für sein unerschütterliches Eintreten auf nationaler Ebene, ist er die treibende Kraft hinter unseren Umwelt- und Justizagenden. Er arbeitet unermüdlich daran, die Nominierung von MRP für den Obersten Gerichtshof voranzutreiben, die EPA zu stärken und regenerative landwirtschaftliche Praktiken zu fördern, um eine nachhaltige Zukunft für die Republik zu sichern.",
+    "ld-name-sherwin": "Sherwin Hildebrand",
+    "ld-bio-sherwin": "Geboren am 17. Mai 2024 in Mezata, wurde Sherwin Hildebrand 2052 zum Gouverneur von Mezata gewählt. Er spielte eine entscheidende Rolle bei der Stabilisierung der frühen Phasen der Belagerung des ManMan-Gebäudes. Gestützt auf diese sicherheitspolitische Erfahrung an vorderster Front leitet er unsere Nationale Sicherheitsagenda und plädiert für die Aufhebung des Nürnberger Gesetzes sowie die strategische Wiedereingliederung der inneren Sicherheit in COIN.",
+    "ld-name-aldric": "Aldric von Reichel",
+    "ld-role-chief": "Stabschef",
+    "ld-bio-aldric": "Geboren am 15. Februar 2035 in Ventura, ist Aldric von Reichel ein Parlamentsmitglied und der Architekt der Verfassungsprüfungskommission. Als ehemaliges Mitglied der Res Publica trat er der SDA 2057 bei. Er leitet die ehrgeizige Infrastruktur- und Bildungsagenda der Partei und setzt sich vehement für den Caprican Archipelago Plan zur Ausweitung der ländlichen Expresszüge, das CapriConnect-Netzwerk und das NRRDA-Gesetz über nationale regionale F&E-Zentren ein.",
+    "auto-candidates-81": "Rolle",
     "footer-name": "Sozialdemokratische Allianz",
     "footer-motto": "Für die Republik. Für das Volk.",
     "footer-copy": "Kommende Wahlen · Caprica<br/> Sozialdemokratische Allianz",
@@ -1980,7 +2065,6 @@ const dictionary = {
     "cand-meet-title": "Treffen Sie sie vor Ort",
     "cand-meet-desc": "Nehmen Sie an Buergerforen, Kundgebungen und Gemeindetreffen in Ihrer Naehe teil.",
     "cand-meet-btn": "Kommende Veranstaltungen anzeigen",
-    "auto-candidates-81": "Rolle",
     "auto-candidates-82": "Veranstaltungen anzeigen"
   }
 };
@@ -2014,6 +2098,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function setLanguage(langCode) {
     if (!dictionary[langCode]) return;
+    localStorage.setItem("site-lang", langCode);
+
+    // Always get a fresh list of elements
+    const translatableElements = document.querySelectorAll("[data-i18n]");
 
     // Update the UI text
     translatableElements.forEach(el => {
@@ -2028,6 +2116,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
+
+    // Force DOM repaint (fixes Safari/WebKit text rendering bugs)
+    document.body.style.display = 'none';
+    document.body.offsetHeight; // trigger reflow
+    document.body.style.display = '';
 
     // Update active state in dropdown
     langOptions.forEach(opt => opt.classList.remove("active"));
