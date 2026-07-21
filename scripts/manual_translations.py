@@ -264,6 +264,16 @@ fr = {
     "ld-val-region-cambria": "Cambria",
     "ld-val-region-mezata": "Mezata",
     "ld-val-region-ventura": "Ventura"
+,
+    "ld-label-office": "Fonction :",
+    "ld-val-office-florence": "Ancienne Sénatrice",
+    "ld-val-office-mp": "Membre du Parlement",
+    "ld-val-office-sherwin": "Gouverneur de Mezata"
+,
+    'ld-bio-florence': 'Née le 5 avril 2017 à Kazana, Florence Marin est une Ancienne Sénatrice.',
+    'ld-bio-william': 'Né le 15 avril 2028 à Cambria, William Smith est un Membre du Parlement.',
+    'ld-bio-sherwin': 'Né le 17 mai 2024 à Mezata, Sherwin Hildebrand est l\'actuel Gouverneur de Mezata.',
+    'ld-bio-aldric': 'Né le 15 février 2035 à Ventura, Aldric von Reichel est un Membre du Parlement.'
 }
 
 # SPANISH (Alcamerian / ac)
@@ -470,6 +480,16 @@ es = {
     "ld-val-region-cambria": "Cambria",
     "ld-val-region-mezata": "Mezata",
     "ld-val-region-ventura": "Ventura"
+,
+    "ld-label-office": "Cargo:",
+    "ld-val-office-florence": "Ex Senadora",
+    "ld-val-office-mp": "Miembro del Parlamento",
+    "ld-val-office-sherwin": "Gobernador de Mezata"
+,
+    'ld-bio-florence': 'Nacida el 5 de abril de 2017 en Kazana, Florence Marin es una Ex Senadora.',
+    'ld-bio-william': 'Nacido el 15 de abril de 2028 en Cambria, William Smith es un Miembro del Parlamento.',
+    'ld-bio-sherwin': 'Nacido el 17 de mayo de 2024 en Mezata, Sherwin Hildebrand es el actual Gobernador de Mezata.',
+    'ld-bio-aldric': 'Nacido el 15 de febrero de 2035 en Ventura, Aldric von Reichel es un Miembro del Parlamento.'
 }
 
 # DANISH (Ralandic / ra)
@@ -676,6 +696,16 @@ da = {
     "ld-val-region-cambria": "Cambria",
     "ld-val-region-mezata": "Mezata",
     "ld-val-region-ventura": "Ventura"
+,
+    "ld-label-office": "Embede:",
+    "ld-val-office-florence": "Tidligere Senator",
+    "ld-val-office-mp": "Medlem af Parlamentet",
+    "ld-val-office-sherwin": "Guvernør af Mezata"
+,
+    'ld-bio-florence': 'Født den 5. april 2017 i Kazana, er Florence Marin en Tidligere Senator.',
+    'ld-bio-william': 'Født den 15. april 2028 i Cambria, er William Smith et Medlem af Parlamentet.',
+    'ld-bio-sherwin': 'Født den 17. maj 2024 i Mezata, er Sherwin Hildebrand den nuværende Guvernør af Mezata.',
+    'ld-bio-aldric': 'Født den 15. februar 2035 i Ventura, er Aldric von Reichel et Medlem af Parlamentet.'
 }
 
 # WELSH (Myrati / my)
@@ -882,6 +912,16 @@ cy = {
     "ld-val-region-cambria": "Cambria",
     "ld-val-region-mezata": "Mezata",
     "ld-val-region-ventura": "Ventura"
+,
+    "ld-label-office": "Swydd:",
+    "ld-val-office-florence": "Cyn-Seneddwr",
+    "ld-val-office-mp": "Aelod Seneddol",
+    "ld-val-office-sherwin": "Llywodraethwr Mezata"
+,
+    'ld-bio-florence': 'Ganwyd ar 5 Ebrill 2017 yn Kazana, mae Florence Marin yn Gyn-Seneddwr.',
+    'ld-bio-william': 'Ganwyd ar 15 Ebrill 2028 yng Nghambria, mae William Smith yn Aelod Seneddol.',
+    'ld-bio-sherwin': 'Ganwyd ar 17 Mai 2024 ym Mezata, Sherwin Hildebrand yw Llywodraethwr presennol Mezata.',
+    'ld-bio-aldric': 'Ganwyd ar 15 Chwefror 2035 yn Ventura, mae Aldric von Reichel yn Aelod Seneddol.'
 }
 
 # LATVIAN (Austrumish / au)
@@ -1088,6 +1128,16 @@ lv = {
     "ld-val-region-cambria": "Cambria",
     "ld-val-region-mezata": "Mezata",
     "ld-val-region-ventura": "Ventura"
+,
+    "ld-label-office": "Amats:",
+    "ld-val-office-florence": "Bijušā Senatore",
+    "ld-val-office-mp": "Parlamenta Deputāts",
+    "ld-val-office-sherwin": "Mezatas Gubernators"
+,
+    'ld-bio-florence': 'Dzimusi 2017. gada 5. aprīlī Kazanā, Florence Marin ir Bijušā Senatore.',
+    'ld-bio-william': 'Dzimis 2028. gada 15. aprīlī Kambrijā, William Smith ir Parlamenta Deputāts.',
+    'ld-bio-sherwin': 'Dzimis 2024. gada 17. maijā Mezatā, Sherwin Hildebrand ir pašreizējais Mezatas Gubernators.',
+    'ld-bio-aldric': 'Dzimis 2035. gada 15. februārī Venturā, Aldric von Reichel ir Parlamenta Deputāts.'
 }
 
 # GERMAN (Leislandic / le)
@@ -1326,4 +1376,14 @@ for code, d in lang_dicts.items():
     "ld-val-region-cambria": "Cambria",
     "ld-val-region-mezata": "Mezata",
     "ld-val-region-ventura": "Ventura"
+,
+    "ld-label-office": "Amt:",
+    "ld-val-office-florence": "Ehemalige Senatorin",
+    "ld-val-office-mp": "Parlamentsmitglied",
+    "ld-val-office-sherwin": "Gouverneur von Mezata"
+,
+    'ld-bio-florence': 'Geboren am 5. April 2017 in Kazana, ist Florence Marin eine Ehemalige Senatorin.',
+    'ld-bio-william': 'Geboren am 15. April 2028 in Cambria, ist William Smith ein Parlamentsmitglied.',
+    'ld-bio-sherwin': 'Geboren am 17. Mai 2024 in Mezata, ist Sherwin Hildebrand der aktuelle Gouverneur von Mezata.',
+    'ld-bio-aldric': 'Geboren am 15. Februar 2035 in Ventura, ist Aldric von Reichel ein Parlamentsmitglied.'
 } translated keys")
