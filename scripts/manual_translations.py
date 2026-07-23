@@ -272,6 +272,9 @@ fr = {
     "modal-refer-publishing": "Consultez leurs publications respectives pour les événements de campagne et médiatiques.",
     "modal-view-events": "Voir les Événements",
     "modal-view-media": "Voir les Médias",
+    "role-gov-henrik": "Candidat au poste de Gouverneur",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Candidat indépendant pour le poste de Gouverneur de Cambria. Il est le choix soutenu par la SDA.",
 }
 
 # SPANISH (Alcamerian / ac)
@@ -486,6 +489,9 @@ es = {
     "modal-refer-publishing": "Consulte sus respectivas publicaciones para eventos de campaña y medios.",
     "modal-view-events": "Ver Eventos",
     "modal-view-media": "Ver Medios",
+    "role-gov-henrik": "Candidato a Gobernador",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Candidato independiente para la Gobernación de Cambria. Es la elección respaldada por la SDA.",
 }
 
 # DANISH (Ralandic / ra)
@@ -700,6 +706,9 @@ da = {
     "modal-refer-publishing": "Se deres respektive udgivelser for kampagne- og mediebegivenheder.",
     "modal-view-events": "Se Begivenheder",
     "modal-view-media": "Se Medier",
+    "role-gov-henrik": "Guvernørkandidat",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Uafhængig kandidat til guvernørposten i Cambria. Han er SDA's støttede valg.",
 }
 
 # WELSH (Myrati / my)
@@ -914,6 +923,9 @@ cy = {
     "modal-refer-publishing": "Cyfeiriwch at eu cyhoeddiadau priodol ar gyfer ymgyrchu a digwyddiadau cyfryngau.",
     "modal-view-events": "Gweld Digwyddiadau",
     "modal-view-media": "Gweld y Cyfryngau",
+    "role-gov-henrik": "Ymgeisydd Llywodraethwr",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Ymgeisydd Annibynnol ar gyfer Llywodraethwr Cambria. Ef yw dewis a gefnogir gan yr SDA.",
 }
 
 # LATVIAN (Austrumish / au)
@@ -1128,6 +1140,9 @@ lv = {
     "modal-refer-publishing": "Skatiet to attiecīgās publikācijas par kampaņām un mediju pasākumiem.",
     "modal-view-events": "Skatīt Pasākumus",
     "modal-view-media": "Skatīt Medijus",
+    "role-gov-henrik": "Gubernatora Kandidāts",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Neatkarīgais kandidāts uz Kambrijas gubernatora amatu. Viņš ir SDA atbalstītā izvēle.",
 }
 
 # GERMAN (Leislandic / le)
@@ -1344,6 +1359,9 @@ de = {
     "modal-refer-publishing": "Konsultieren Sie die jeweiligen Veröffentlichungen für Wahlkampf- und Medienveranstaltungen.",
     "modal-view-events": "Veranstaltungen Ansehen",
     "modal-view-media": "Medien Ansehen",
+    "role-gov-henrik": "Gouverneurskandidat",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Unabhängiger Kandidat für das Gouverneursamt von Cambria. Er ist die unterstützte Wahl der SDA.",
 }
 
 # ===== BUILD FINAL DATA =====

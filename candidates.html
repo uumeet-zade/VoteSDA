@@ -103,6 +103,15 @@
 <div class="candidate-bio" data-i18n="bio-gov-safiyya">Independent Candidate for the Governorship of Reno. She is SDA's choice of candidate.</div>
 </div>
 </div>
+<div class="featured-candidate-card">
+<img alt="Henrik Vasmer" class="candidate-image" src="assets/images/portraits/henrikvasmer.jpg" style="object-position: 30% 15%;"/>
+<div class="candidate-details">
+<div class="candidate-name" data-i18n="name-gov-henrik" style="display: flex; align-items: center; gap: 8px;">Henrik Vasmer <img alt="Independent Logo" src="assets/images/independent.png" style="height: 32px; width: auto;" title="Independent"/></div>
+<div class="candidate-role" data-i18n="role-gov-henrik">Governor Candidate</div>
+<div class="candidate-constituency" data-i18n="const-gov-henrik">Cambria</div>
+<div class="candidate-bio" data-i18n="bio-gov-henrik">Independent Candidate for the Governorship of Cambria. He is SDA's endorsed choice.</div>
+</div>
+</div>
 </div>
 </div>
 <div class="candidates-category" data-category="house">
@@ -312,7 +321,7 @@
 
           const name = nameElCard.textContent;
           const modalBody = modal.querySelector('.modal-body');
-          if (name.includes('Isolde') || name.includes('Mandy') || name.includes('Safiyya')) {
+          if (name.includes('Isolde') || name.includes('Mandy') || name.includes('Safiyya') || name.includes('Henrik')) {
             modalBody.innerHTML = '<p data-i18n="modal-refer-publishing" style="text-align: center; color: var(--text-muted); font-style: italic; font-size: 1.1rem; padding: 20px 0;">Refer to their respective publishings for campaigning and media events.</p>';
           } else {
             modalBody.innerHTML = `

@@ -294,7 +294,11 @@
     "auto-candidates-82": "View Events",
     "modal-refer-publishing": "Refer to their respective publishings for campaigning and media events.",
     "modal-view-events": "View Events",
-    "modal-view-media": "View Media"
+    "modal-view-media": "View Media",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Governor Candidate",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Independent Candidate for the Governorship of Cambria. He is SDA's endorsed choice."
   },
   "ga": {
     "nav-name": "Alliance Sociale-Democrate",
@@ -591,7 +595,11 @@
     "auto-candidates-82": "Voir les Evenements",
     "modal-refer-publishing": "Consultez leurs publications respectives pour les événements de campagne et médiatiques.",
     "modal-view-events": "Voir les Événements",
-    "modal-view-media": "Voir les Médias"
+    "modal-view-media": "Voir les Médias",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Candidat au poste de Gouverneur",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Candidat indépendant pour le poste de Gouverneur de Cambria. Il est le choix soutenu par la SDA."
   },
   "ac": {
     "nav-name": "Alianza Socialdemocrata",
@@ -888,7 +896,11 @@
     "auto-candidates-82": "Ver Eventos",
     "modal-refer-publishing": "Consulte sus respectivas publicaciones para eventos de campaña y medios.",
     "modal-view-events": "Ver Eventos",
-    "modal-view-media": "Ver Medios"
+    "modal-view-media": "Ver Medios",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Candidato a Gobernador",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Candidato independiente para la Gobernación de Cambria. Es la elección respaldada por la SDA."
   },
   "ra": {
     "nav-name": "Socialdemokratisk Alliance",
@@ -1185,7 +1197,11 @@
     "auto-candidates-82": "Se Arrangementer",
     "modal-refer-publishing": "Se deres respektive udgivelser for kampagne- og mediebegivenheder.",
     "modal-view-events": "Se Begivenheder",
-    "modal-view-media": "Se Medier"
+    "modal-view-media": "Se Medier",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Guvernørkandidat",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Uafhængig kandidat til guvernørposten i Cambria. Han er SDA's støttede valg."
   },
   "my": {
     "nav-name": "Cynghrair Sosialaidd Democrataidd",
@@ -1482,7 +1498,11 @@
     "auto-candidates-82": "Gweld Digwyddiadau",
     "modal-refer-publishing": "Cyfeiriwch at eu cyhoeddiadau priodol ar gyfer ymgyrchu a digwyddiadau cyfryngau.",
     "modal-view-events": "Gweld Digwyddiadau",
-    "modal-view-media": "Gweld y Cyfryngau"
+    "modal-view-media": "Gweld y Cyfryngau",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Ymgeisydd Llywodraethwr",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Ymgeisydd Annibynnol ar gyfer Llywodraethwr Cambria. Ef yw dewis a gefnogir gan yr SDA."
   },
   "au": {
     "nav-name": "Socialdemokratiska Alianse",
@@ -1779,7 +1799,11 @@
     "auto-candidates-82": "Skatit pasakumus",
     "modal-refer-publishing": "Skatiet to attiecīgās publikācijas par kampaņām un mediju pasākumiem.",
     "modal-view-events": "Skatīt Pasākumus",
-    "modal-view-media": "Skatīt Medijus"
+    "modal-view-media": "Skatīt Medijus",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Gubernatora Kandidāts",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Neatkarīgais kandidāts uz Kambrijas gubernatora amatu. Viņš ir SDA atbalstītā izvēle."
   },
   "le": {
     "nav-name": "Sozialdemokratische Allianz",
@@ -2076,6 +2100,10 @@
     "auto-candidates-82": "Veranstaltungen anzeigen",
     "modal-refer-publishing": "Konsultieren Sie die jeweiligen Veröffentlichungen für Wahlkampf- und Medienveranstaltungen.",
     "modal-view-events": "Veranstaltungen Ansehen",
-    "modal-view-media": "Medien Ansehen"
+    "modal-view-media": "Medien Ansehen",
+    "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+    "role-gov-henrik": "Gouverneurskandidat",
+    "const-gov-henrik": "Cambria",
+    "bio-gov-henrik": "Unabhängiger Kandidat für das Gouverneursamt von Cambria. Er ist die unterstützte Wahl der SDA."
   }
 }

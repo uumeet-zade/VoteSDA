@@ -293,5 +293,9 @@
   "auto-candidates-82": "View Events",
   "modal-refer-publishing": "Refer to their respective publishings for campaigning and media events.",
   "modal-view-events": "View Events",
-  "modal-view-media": "View Media"
+  "modal-view-media": "View Media",
+  "name-gov-henrik": "Henrik Vasmer <img alt=\"Independent Logo\" src=\"assets/images/independent.png\" style=\"height: 32px; width: auto;\" title=\"Independent\"/>",
+  "role-gov-henrik": "Governor Candidate",
+  "const-gov-henrik": "Cambria",
+  "bio-gov-henrik": "Independent Candidate for the Governorship of Cambria. He is SDA's endorsed choice."
 }
