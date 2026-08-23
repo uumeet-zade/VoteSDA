@@ -295,6 +295,17 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
+.poster-img {
+  width: 100%;
+  height: auto;
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: 8px 8px 0 var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.poster-img:hover {
+  transform: translateY(-5px);
+  box-shadow: 12px 12px 0 var(--sda-red);
+}
 .poster-placeholder {
   border: var(--border-width) solid var(--border-color);
   background: #FFF;
