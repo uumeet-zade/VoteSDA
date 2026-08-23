@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@800;900&display=swap');
+
+:root {
+  /* Core Colors */
+  --sda-red: #D7003A;
+  --rej-gold: #D48C52;
+  --bg-color: #F8F9FA;
+  --text-main: #121212;
+  --border-color: #121212;
+
+  /* Typography */
+  --font-main: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  /* Structural */
+  --border-width: 2px;
+  --border-radius: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Typography basics */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* Sharp, structured container */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Characteristic Borders */
+.bordered-section {
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: #FFFFFF;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: var(--border-width) solid var(--border-color);
+  background-color: var(--bg-color);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  background: var(--bg-color);
+  padding: 4rem;
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: 12px 12px 0 var(--sda-red);
+}
+
+.hero-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.hero-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.hero-logos img {
+  height: 140px;
+  width: auto;
+  filter: grayscale(100%) contrast(120%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.hero-logos img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* Marquee Background */
+.marquee-container {
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: rotate(-10deg);
+  opacity: 0.05;
+}
+
+.marquee-row {
+  display: flex;
+  white-space: nowrap;
+  margin-bottom: -1rem;
+  width: max-content;
+}
+
+.marquee-text {
+  font-family: var(--font-display);
+  font-size: 8rem;
+  font-weight: 900;
+  color: var(--border-color);
+  padding-right: 2rem;
+  text-transform: uppercase;
+}
+.marquee-sda {
+  color: var(--sda-red);
+}
+.marquee-rej {
+  color: var(--rej-gold);
+}
+
+/* Alternate directions for marquee */
+.marquee-row:nth-child(odd) {
+  animation: scroll-left 180s linear infinite;
+}
+.marquee-row:nth-child(even) {
+  animation: scroll-right 180s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+/* Featured Parties */
+.parties-section {
+  padding: 6rem 0;
+}
+
+.section-header {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.parties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.party-card {
+  padding: 3rem;
+  border: var(--border-width) solid var(--border-color);
+  background: #FFF;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.party-card:hover {
+  transform: translateY(-5px);
+}
+
+.party-card.sda:hover {
+  box-shadow: 8px 8px 0 var(--sda-red);
+}
+
+.party-card.rej:hover {
+  box-shadow: 8px 8px 0 var(--rej-gold);
+}
+
+.party-logo-wrapper {
+  height: 100px;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.party-logo-wrapper img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.party-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.party-desc {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Manifesto Section */
+.manifesto-section {
+  padding: 6rem 0;
+  background-color: #121212;
+  color: #F8F9FA;
+  border-top: var(--border-width) solid var(--border-color);
+}
+
+.manifesto-section .section-header {
+  color: #F8F9FA;
+}
+
+.manifesto-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.manifesto-item {
+  border: var(--border-width) solid #333;
+  padding: 2rem;
+  background: #1A1A1A;
+  transition: all 0.3s ease;
+}
+
+.manifesto-item:hover {
+  border-color: var(--sda-red);
+  background: #121212;
+  box-shadow: -8px 8px 0 var(--sda-red);
+  transform: translateX(5px);
+}
+
+.manifesto-item h3 {
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--rej-gold);
+}
+
+/* Footer */
+footer {
+  border-top: var(--border-width) solid var(--border-color);
+  padding: 3rem 0;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.footer-content {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-title { font-size: 3rem; }
+  .hero-content { padding: 2rem; }
+  .marquee-text { font-size: 4rem; }
+}
+
+/* Posters Section */
+.posters-section {
+  padding: 4rem 0;
+  background: var(--bg-color);
+}
+.posters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.poster-placeholder {
+  border: var(--border-width) solid var(--border-color);
+  background: #FFF;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: #CCC;
+  box-shadow: 8px 8px 0 var(--border-color);
+}
+
+/* Candidates & Endorsements */
+.candidates-section {
+  padding: 6rem 0;
+  background: #FFF;
+  border-top: var(--border-width) solid var(--border-color);
+}
+.candidates-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+@media (max-width: 768px) {
+  .candidates-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+.list-box h3 { 
+  margin-bottom: 2rem; 
+  color: var(--text-main); 
+  border-bottom: var(--border-width) solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.candidate-item {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #E0E0E0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+  border-left: 0px solid transparent;
+}
+.candidate-item:hover {
+  background-color: var(--bg-color);
+  padding-left: 1rem;
+  border-left: 4px solid var(--sda-red);
+  transform: translateX(5px);
+}
+.candidate-item:last-child { border-bottom: none; }
+.candidate-name { font-weight: 600; font-size: 1.1rem; }
+.candidate-region { color: #666; font-size: 0.9rem; }
+.candidate-meta { text-align: right; }
+.candidate-party { 
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  background: var(--text-main);
+  color: #FFF;
+  padding: 2px 6px;
+  margin-left: 10px;
+}
+.candidate-party.sda { background: var(--sda-red); }
+.candidate-party.rej { background: var(--rej-gold); }
+
+/* Endorsement Banner */
+@keyframes endorsement-pulse {
+  0% { box-shadow: 8px 8px 0 var(--sda-red); }
+  100% { box-shadow: 12px 12px 0 var(--rej-gold); }
+}
+
+.endorsement-banner {
+  margin-top: 4rem;
+  padding: 3rem;
+  background: var(--text-main);
+  color: #FFF;
+  text-align: center;
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: 8px 8px 0 var(--sda-red);
+  animation: endorsement-pulse 3s infinite alternate;
+  transition: transform 0.3s ease;
+}
+.endorsement-banner:hover {
+  transform: translateY(-5px);
+}
+.endorsement-banner h2 { color: var(--rej-gold); margin-bottom: 1rem; }
+.endorsement-banner p { font-size: 1.2rem; font-weight: 600; }
+
+/* Events Section */
+.events-section {
+  padding: 6rem 0;
+  background: var(--bg-color);
+  border-top: var(--border-width) solid var(--border-color);
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.event-card {
+  background: #FFF;
+  border: var(--border-width) solid var(--border-color);
+  padding: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 0 var(--text-main);
+}
+.event-date {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--sda-red);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+.event-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.event-location {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+.event-desc {
+  font-size: 1rem;
+  color: #333;
+  flex-grow: 1;
+}
+
