@@ -274,26 +274,27 @@ section {
 /* --- Endorsements --- */
 .endorsement-item {
   font-family: var(--font-serif);
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
   line-height: 1.2;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.5rem;
   transition: color 0.3s ease;
   cursor: default;
 }
 
 .endorsement-item span {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--text-muted);
   vertical-align: middle;
   transition: color 0.3s ease;
 }
 
 .endorsement-item img {
-  height: 30px;
+  height: 45px;
   filter: grayscale(100%) invert(var(--logo-invert));
   opacity: 0.7;
   transition: filter 0.3s ease, opacity 0.3s ease;
